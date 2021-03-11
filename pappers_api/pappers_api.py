@@ -185,7 +185,7 @@ class Recherche(Pappers):
 # v = entreprise.exec()
 
 # %%
-%s
+
 API_KEY = "ae0388257ef5a57ce61c5fe6a2fee88b57ecd49c3fb2d346"
 MAX_DATA_SIZE = 100_000
 params = {"par_page": "1000",
