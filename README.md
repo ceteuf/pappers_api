@@ -13,9 +13,10 @@ Api documentation page (fr) : https://www.pappers.fr/api/documentation
 
 
 ```python
-API_KEY = "ae0388257ef5a57ce61c5fe6a2fee88b57ecd49c3fb2d346"
-MAX_DATA_SIZE = 100_000
+API_KEY = "your_api_key"
+MAX_DATA_SIZE = 100_000 # sets the maximum number of elements beyond which a more precise search must be performed
 ```
+
 ```python
 params = {"par_page": "1000",
           "page": "",
@@ -45,16 +46,13 @@ params = {"par_page": "1000",
           "type_publication": "",
           "date_publication_min":"",
           "date_publication_max":""}
+```         
+
+```python
 recherche = Recherche(API_KEY, params, MAX_DATA_SIZE)
-
-# %%
-recherche.exec()
-# %%
-recherche.get_companies_data()
-# %%
-data = recherche.resultats
-
-# %%
-data_companies = recherche.companies_resultats
+recherche.exec() # performs api calls, return the companies found according to the criteria
+recherche.get_companies_data() # retrieve data from the companies listed in the previous order
+data = recherche.resultats # list of companies
+data_companies = recherche.companies_resultats # company data
 
 ```
