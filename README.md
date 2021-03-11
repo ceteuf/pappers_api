@@ -18,6 +18,8 @@ Pappers Api offers 3 types of routes:
 * search
 * documents
 
+pappers_api module design : 
+
 search for companies following criteria => get companies data => download (all/specifics) documents
 
 ## USAGE
