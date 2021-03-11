@@ -15,7 +15,7 @@ Please, get a free key here (need to register) : https://www.pappers.fr/api/regi
 ## API ORGANIZATION
 Pappers Api offers 3 types of routes: 
 * companies 
-* research
+* search
 * documents
 
 ## USAGE
@@ -67,5 +67,6 @@ data_companies = recherche.companies_resultats # company data
 ## TODOs
 
 * implement all remaining routes
-** dgd
-* implement data formating function (from neested json dict to multiple dataframes ?)
+- companies (entreprise) routes
+- other search root
+* implement data formating functions (from neested json dict to multiple dataframes ?)
