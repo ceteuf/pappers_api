@@ -12,6 +12,13 @@ Please, get a free key here (need to register) : https://www.pappers.fr/api/regi
 
 (WORK IN PROGRESS)
 
+## API ORGANIZATION
+Pappers Api offers 3 types of routes: 
+* companies 
+* research
+* documents
+
+# USAGE
 
 ```python
 API_KEY = "your_api_key"
