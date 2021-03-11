@@ -7,3 +7,6 @@ Pappers.fr Allows easy access to legal information of french companies and in pa
 About (fr) : https://www.pappers.fr/a-propos
 
 Api documentation page : https://www.pappers.fr/api/documentation
+
+
+(WORKING IN PROGRESS)
