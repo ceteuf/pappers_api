@@ -18,6 +18,8 @@ Pappers Api offers 3 types of routes:
 * search
 * documents
 
+search for companies following criteria => get companies data => download (all/specifics) documents
+
 ## USAGE
 
 ```python
