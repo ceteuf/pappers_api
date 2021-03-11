@@ -18,7 +18,7 @@ Pappers Api offers 3 types of routes:
 * research
 * documents
 
-# USAGE
+## USAGE
 
 ```python
 API_KEY = "your_api_key"
@@ -64,3 +64,8 @@ data = recherche.resultats # list of companies
 data_companies = recherche.companies_resultats # company data
 
 ```
+## TODOs
+
+* implement all remaining routes
+** dgd
+* implement data formating function (from neested json dict to multiple dataframes ?)
