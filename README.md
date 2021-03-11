@@ -74,3 +74,4 @@ data_companies = recherche.companies_resultats # company data
 - companies (entreprise) routes
 - other search root
 * implement data formating functions (from neested json dict to multiple dataframes ?)
+* Frenglish dropping
