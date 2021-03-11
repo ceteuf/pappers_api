@@ -8,6 +8,7 @@ About (fr) : https://www.pappers.fr/a-propos
 
 Api documentation page (fr) : https://www.pappers.fr/api/documentation
 
+Please, get a free key here (need to register) : https://www.pappers.fr/api/register
 
 (WORK IN PROGRESS)
 
