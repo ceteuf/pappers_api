@@ -1,4 +1,7 @@
 # %%
+# Code correspondant a Pappers API (2.0)
+
+# %%
 import requests as rq
 import os
 import urllib
